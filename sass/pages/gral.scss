@@ -1,7 +1,44 @@
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
     .nav-logo {
+        display: flex;
+        gap: 20px;
+        align-items: center;
         .logo-crei {
-            height: 200px;
+            height: 80px;
+        }
+        .nombre {
+            color: #313268;
+            font-size: 1.5rem;
+        }
+    }
+    .nav {
+        .nav-list {
+            display: flex;
+            gap: 30px;
+            .nav-link {
+                text-decoration: none;
+                color: #313268;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+        }
+    }
+    .contacto {
+        background-color: #53bae7;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 1.2rem;
+        height: 50px;
+        width: 200px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #51d1f6;
         }
     }
 }

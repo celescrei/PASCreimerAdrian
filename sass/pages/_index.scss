@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+// Main intro //
+.img-intro {
+    background-color: #74c8ec;
+}
+
+// About me //
+.about-me {
+    display: flex;
+    margin: 80px 200px;
+    gap: 150px;
+    align-items: center;
+    .text-about {
+        .intro-about {
+            margin-bottom: 40px;
+            .title-about {
+                
+                font-size: 2rem;
+                margin: 0;
+            }
+            .p1 {
+                color: #313268;
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin: 0;
+            }
+        }
+        .parrafos {
+            line-height: 1.5;
+            font-size: 1rem;
+            .p2,
+            .p3,
+            .p4,
+            .p5 {
+                margin: 20px 0;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+    .foto-about {
+        .foto-adrian {
+            height: 500px;
+        }
+    }
+}
+
+// My services //
+.my-services {
+    margin: 80px 200px;
+    .titulo-service {
+        color: #313268;
+    }
+}

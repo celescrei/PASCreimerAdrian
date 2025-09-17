@@ -1,8 +1,12 @@
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   padding: 10px 80px;
   align-items: center;
+  background-color: white;
 }
 .navbar .nav-logo {
   display: flex;
@@ -38,6 +42,57 @@
 }
 .navbar .contacto:hover {
   background-color: #51d1f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.img-intro {
+  background-color: #74c8ec;
+}
+
+.about-me {
+  display: flex;
+  margin: 80px 200px;
+  gap: 150px;
+  align-items: center;
+}
+.about-me .text-about .intro-about {
+  margin-bottom: 40px;
+}
+.about-me .text-about .intro-about .title-about {
+  font-size: 2rem;
+  margin: 0;
+}
+.about-me .text-about .intro-about .p1 {
+  color: #313268;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.about-me .text-about .parrafos {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.about-me .text-about .parrafos .p2,
+.about-me .text-about .parrafos .p3,
+.about-me .text-about .parrafos .p4,
+.about-me .text-about .parrafos .p5 {
+  margin: 20px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.about-me .foto-about .foto-adrian {
+  height: 500px;
+}
+
+.my-services {
+  margin: 80px 200px;
+}
+.my-services .titulo-service {
+  color: #313268;
 }
 
 /*# sourceMappingURL=style.css.map */
